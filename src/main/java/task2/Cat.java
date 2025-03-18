@@ -2,12 +2,8 @@ package task2;
 
 public class Cat extends Animal {
 
-    public Cat(String name) {
-        super(name);
-    }
 
-    @Override
-    public boolean hasTail() {
-        return true;
+    public Cat(String name, boolean tail) {
+        super(name, tail);
     }
 }

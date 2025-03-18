@@ -10,10 +10,10 @@ public class TaskTest {
     @Test
     public void searchTail() {
         Animal[] animals = {
-                new Dog("Шарик"),
-                new Cat("Барсик"),
-                new Chimpanzee("Боня"),
-                new Gorilla("Даша")};
+                new Dog("Шарик",true),
+                new Cat("Барсик", true),
+                new Chimpanzee("Боня",false),
+                new Gorilla("Даша",false)};
 
         int count = countAnimalsWithTail(animals);
 

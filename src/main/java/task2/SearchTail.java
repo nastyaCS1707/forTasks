@@ -4,7 +4,7 @@ public class SearchTail {
     static int countAnimalsWithTail(Animal[] animals) {
         int count = 0;
         for (Animal animal : animals) {
-            if (animal.hasTail() == true) {
+            if (animal.tail == true) {
                 count++;
             }
         }
